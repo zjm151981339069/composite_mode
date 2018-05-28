@@ -9,3 +9,15 @@
 2018-05-28 09:37:16.673  INFO 7900 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : starting to acquire async jobs due
 2018-05-28 09:37:16.673  INFO 7900 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : starting to acquire async jobs due
 2018-05-28 09:37:18.877  INFO 7900 --- [main] c.z.s.s.SpringBootApplicationStart       : Started SpringBootApplicationStart in 8.127 seconds (JVM running for 8.632)
+2018-05-28 09:58:29.001  INFO 7248 --- [main] c.z.s.spring_boot_mode.ApplicationTests  : Starting ApplicationTests on cs-PC with PID 7248 (started by Administrator in C:\Users\Administrator\git\composite_mode\spring_boot_mode)
+2018-05-28 09:58:29.002  INFO 7248 --- [main] c.z.s.spring_boot_mode.ApplicationTests  : No active profile set, falling back to default profiles: default
+2018-05-28 09:58:32.322  INFO 7248 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 09:58:33.368  INFO 7248 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2018-05-28 09:58:33.371  INFO 7248 --- [main] o.a.e.i.a.AbstractAsyncJobExecutor       : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2018-05-28 09:58:33.372  INFO 7248 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : starting to acquire async jobs due
+2018-05-28 09:58:33.375  INFO 7248 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : starting to acquire async jobs due
+2018-05-28 09:58:36.328  INFO 7248 --- [main] c.z.s.spring_boot_mode.ApplicationTests  : Started ApplicationTests in 7.646 seconds (JVM running for 8.509)
+2018-05-28 09:58:36.592  INFO 7248 --- [Thread-4] o.a.e.i.a.AbstractAsyncJobExecutor       : Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2018-05-28 09:58:36.593  INFO 7248 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : stopped async job due acquisition
+2018-05-28 09:58:36.593  INFO 7248 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : stopped async job due acquisition
+2018-05-28 09:58:36.608  INFO 7248 --- [Thread-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
