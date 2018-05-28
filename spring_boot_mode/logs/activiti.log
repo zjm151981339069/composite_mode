@@ -1,0 +1,11 @@
+2018-05-28 09:37:11.052  INFO 7900 --- [main] c.z.s.s.SpringBootApplicationStart       : Starting SpringBootApplicationStart on cs-PC with PID 7900 (C:\ZJM\IN_E\eclipse_workSpace\spring_boot_mode\target\classes started by Administrator in C:\ZJM\IN_E\eclipse_workSpace\spring_boot_mode)
+2018-05-28 09:37:11.055  INFO 7900 --- [main] c.z.s.s.SpringBootApplicationStart       : No active profile set, falling back to default profiles: default
+2018-05-28 09:37:13.674  INFO 7900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 09:37:13.675  INFO 7900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-28 09:37:13.848  INFO 7900 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 09:37:14.902  INFO 7900 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 09:37:16.666  INFO 7900 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2018-05-28 09:37:16.671  INFO 7900 --- [main] o.a.e.i.a.AbstractAsyncJobExecutor       : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2018-05-28 09:37:16.673  INFO 7900 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : starting to acquire async jobs due
+2018-05-28 09:37:16.673  INFO 7900 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : starting to acquire async jobs due
+2018-05-28 09:37:18.877  INFO 7900 --- [main] c.z.s.s.SpringBootApplicationStart       : Started SpringBootApplicationStart in 8.127 seconds (JVM running for 8.632)
