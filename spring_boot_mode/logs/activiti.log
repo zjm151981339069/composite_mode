@@ -21,3 +21,103 @@
 2018-05-28 09:58:36.593  INFO 7248 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : stopped async job due acquisition
 2018-05-28 09:58:36.593  INFO 7248 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : stopped async job due acquisition
 2018-05-28 09:58:36.608  INFO 7248 --- [Thread-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-07-20 15:54:39.470  INFO 6396 --- [main] c.z.s.s.SpringBootApplicationStart       : Starting SpringBootApplicationStart on cs-PC with PID 6396 (C:\Users\Administrator\git\composite_mode\spring_boot_mode\target\classes started by Administrator in C:\Users\Administrator\git\composite_mode\spring_boot_mode)
+2018-07-20 15:54:39.473  INFO 6396 --- [main] c.z.s.s.SpringBootApplicationStart       : No active profile set, falling back to default profiles: default
+2018-07-20 15:54:43.761  INFO 6396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-20 15:54:43.763  INFO 6396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-20 15:54:44.005  INFO 6396 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-20 15:54:45.191  INFO 6396 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-07-20 15:54:47.215  INFO 6396 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2018-07-20 15:54:47.220  INFO 6396 --- [main] o.a.e.i.a.AbstractAsyncJobExecutor       : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2018-07-20 15:54:47.223  INFO 6396 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : starting to acquire async jobs due
+2018-07-20 15:54:47.223  INFO 6396 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : starting to acquire async jobs due
+2018-07-20 15:54:49.971 ERROR 6396 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_151]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zjm.springBoot.spring_boot_mode.SpringBootApplicationStart.main(SpringBootApplicationStart.java:10) [classes/:na]
+
+2018-07-20 15:54:49.973 ERROR 6396 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.zjm.springBoot.spring_boot_mode.SpringBootApplicationStart.main(SpringBootApplicationStart.java:10) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_151]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_151]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_151]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 14 common frames omitted
+
+2018-07-20 15:54:49.995  INFO 6396 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-07-20 15:54:50.042 ERROR 6396 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-20 15:54:50.056  INFO 6396 --- [main] o.a.e.i.a.AbstractAsyncJobExecutor       : Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2018-07-20 15:54:50.056  INFO 6396 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : stopped async job due acquisition
+2018-07-20 15:54:50.073  INFO 6396 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : stopped async job due acquisition
+2018-07-20 15:54:50.079  INFO 6396 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-07-20 15:55:28.735  INFO 7476 --- [main] c.z.s.s.SpringBootApplicationStart       : Starting SpringBootApplicationStart on cs-PC with PID 7476 (C:\Users\Administrator\git\composite_mode\spring_boot_mode\target\classes started by Administrator in C:\Users\Administrator\git\composite_mode\spring_boot_mode)
+2018-07-20 15:55:28.738  INFO 7476 --- [main] c.z.s.s.SpringBootApplicationStart       : No active profile set, falling back to default profiles: default
+2018-07-20 15:55:31.439  INFO 7476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-20 15:55:31.441  INFO 7476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-20 15:55:31.659  INFO 7476 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-20 15:55:32.663  INFO 7476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-07-20 15:55:33.822  INFO 7476 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2018-07-20 15:55:33.825  INFO 7476 --- [main] o.a.e.i.a.AbstractAsyncJobExecutor       : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2018-07-20 15:55:33.826  INFO 7476 --- [Thread-2] o.a.e.i.a.AcquireTimerJobsRunnable       : starting to acquire async jobs due
+2018-07-20 15:55:33.826  INFO 7476 --- [Thread-3] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : starting to acquire async jobs due
+2018-07-20 15:55:35.784  INFO 7476 --- [main] c.z.s.s.SpringBootApplicationStart       : Started SpringBootApplicationStart in 7.384 seconds (JVM running for 7.966)
