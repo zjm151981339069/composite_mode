@@ -9,7 +9,7 @@ import org.apache.shiro.util.Factory;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class test {
+public class T1test {
 	@Test
 	public void testHelloworld() {
 		// 1、获取 SecurityManager 工厂，此处使用 Ini 配置文件初始化 SecurityManager
