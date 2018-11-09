@@ -1,4 +1,4 @@
-package spring_boot_mode;
+package com.zjm.shiro.ch2;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
