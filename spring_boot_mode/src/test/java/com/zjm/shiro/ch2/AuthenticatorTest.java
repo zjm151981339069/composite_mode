@@ -1,4 +1,4 @@
-package com.github.zhangkaitao.shiro.chapter2;
+package com.zjm.shiro.ch2;
 
 import junit.framework.Assert;
 import org.apache.shiro.SecurityUtils;
