@@ -1,4 +1,4 @@
-package com.github.zhangkaitao.shiro.chapter2.realm;
+package com.zjm.shiro.ch2.realm;
 
 import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.Realm;

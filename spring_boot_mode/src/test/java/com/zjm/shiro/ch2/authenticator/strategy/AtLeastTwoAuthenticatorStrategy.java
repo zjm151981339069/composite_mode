@@ -1,4 +1,4 @@
-package com.github.zhangkaitao.shiro.chapter2.authenticator.strategy;
+package com.zjm.shiro.ch2.authenticator.strategy;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
