@@ -88,17 +88,7 @@
             <artifactId>ojdbc6</artifactId>
             <version>11.2.0.1.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-spring-boot-starter-basic</artifactId>
-            <version>${org.activiti.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-rest</artifactId>
-            <version>${org.activiti.version}</version>
-        </dependency>
+       
 
         <dependency>
             <groupId>org.apache.xmlgraphics</groupId>
@@ -119,21 +109,6 @@
             <groupId>org.apache.xmlgraphics</groupId>
             <artifactId>batik-svggen</artifactId>
             <version>1.7</version>
-        </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-explorer</artifactId>
-            <version>${org.activiti.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-diagram-rest</artifactId>
-            <version>${org.activiti.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-simple-workflow</artifactId>
-            <version>${org.activiti.version}</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
