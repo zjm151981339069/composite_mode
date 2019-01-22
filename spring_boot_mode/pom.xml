@@ -83,11 +83,6 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.1</version>
         </dependency>
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>11.2.0.1.0</version>
-        </dependency>
        
 
         <dependency>
